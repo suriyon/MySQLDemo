@@ -6,6 +6,11 @@ public class Car {
 	private String model;
 	private String color;
 	private int price;
+	@Override
+	public String toString() {
+		return "Car [id=" + id + ", brand=" + brand + ", model=" + model + ", color=" + color + ", price=" + price
+				+ "]";
+	}
 	public String getId() {
 		return id;
 	}
